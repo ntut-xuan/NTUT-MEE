@@ -40,9 +40,9 @@ $= g(x)(3x+5)(2x-3) + ax+b$
 
 
 
-代入$x=\dfrac{3}{2}$，得到$27 = \dfrac{3}{2}a+b$
+代入$x=\dfrac{3}{2}$，得到$\dfrac{3}{2}a+b = 27$
 
-代入$x=-\dfrac{5}{3}$，得到$8=-\dfrac{5}{3}a+b$
+代入$x=\dfrac{-5}{3}$，得到$\dfrac{-5}{3}a+b = 8$
 
 解聯立之後得到$(a, b) = (6, 18)$
 
@@ -148,19 +148,22 @@ $\rm(E)\ x > 2\ 或\ x < 1$
 
 #### Solution
 
-$\dfrac{x^2-7x+12}{x^2-3x+2} = \dfrac{(x-4)(x-3)}{(x-1)(x-2)}\le -1$
+$\dfrac{x^2-7x+12}{x^2-3x+2} \le -1$
 
-考慮一些case
+$\Rightarrow \dfrac{x^2-7x+12}{x^2-3x+2} + 1\le 0$
 
-上面的分子要變成負的，則$3 < x < 4$
+$\Rightarrow \dfrac{2x^2-10x+14}{x^2-3x+2} \le 0$
 
-下面的分母要變成負的，則$1 < x < 2$
+$\Rightarrow \dfrac{2(x^2-5x+7)}{(x-1)(x-2)} \le 0$
 
-由於小於-1，因此帶值進去後，分子的絕對值要比分母的絕對值還要大
+故我們考慮
 
-因此我們可以只考慮下面的case
+$\left\{\begin{array}2x^2-10x+14\le 0 \\(x-1)(x-2) > 0\end{array}\right. \Rightarrow x \in \varnothing$
 
-因此答案為$1 < x < 2$，故選$(C)$
+$\left\{\begin{array}2x^2-10x+14 \ge 0 \\(x-1)(x-2) < 0\end{array}\right. \Rightarrow 1 < x < 2$
+
+因此$1 < x < 2$時，$\dfrac{x^2-7x+12}{x^2-3x+2} \le -1$，故選$(C)$
+
 
 
 
