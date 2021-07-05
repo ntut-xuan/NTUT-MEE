@@ -1080,7 +1080,7 @@ $\cos^2\theta = 1 - \cos\theta$
 
 $\sin^2 \theta = 1 - \cos^2\theta = 1 - (1 - \cos\theta) = \cos\theta$
 
-$\sin^4 = (\sin^2)^2 = \cos^2\theta$
+$\sin^4\theta = (\sin^2\theta)^2 = \cos^2\theta$
 
 $\sin^2\theta + \sin^4\theta = \cos\theta + \cos^2\theta = 1$
 
@@ -1264,7 +1264,19 @@ $\rm (E)\ \dfrac{-3}{25}$
 
 
 
-#### Solution
+#### Solution 1
+
+設$n_1 = <3, 1>$，$n_2 = <1, 3>$
+
+則$\cos\theta = \dfrac{n_1 n_2}{|n_1||n_2|} = \dfrac{6}{10} = \dfrac{3}{5}$
+
+因此$\sin\theta = \dfrac{4}{5}$
+
+所以$\cos2\theta = \cos^2(\theta)-\sin^2(\theta) = -\dfrac{7}{25}$，故選$(A)$
+
+
+
+#### Solution 2
 
 考慮兩條線的斜率。
 
@@ -1297,4 +1309,629 @@ $\dfrac{\dfrac{-4}{3} + \tan\theta}{1-\dfrac{-4}{3}\tan\theta}$，求得銳角$\
 由於這個角度介於$90^{\circ} \sim 180^{\circ}$，$y>0$，而$x < 0$，也因此$y = 24,\ x = -7,\ r = \sqrt{24^2+(-7)^2} = 25$
 
 因此$\cos2\theta = \dfrac{-7}{25}$，故選$(A)$
+
+
+
+## 101年第2次北科入學數學會考
+
+### 101-02-01
+
+#### Statement
+
+設$\sin\alpha = \dfrac{4}{5}$，$\cos\beta = \dfrac{-5}{13}$，且$0 < \alpha < \dfrac{\pi}{2}$，$\dfrac{\pi}{2} < \beta < \pi$，則$\sin(\alpha - \beta)=$？
+
+$\color{red}{\rm(A)\ \dfrac{-56}{65}}$
+
+$\rm(B)\ \dfrac{-16}{65}$
+
+$\rm(C)\ \dfrac{16}{65}$
+
+$\rm(D)\ \dfrac{27}{65}$
+
+$\rm(E)\ \dfrac{56}{65}$
+
+
+
+#### Solution
+
+$\because 0 < \alpha < \dfrac{\pi}{2}$
+
+$\therefore 0 < \sin\alpha< 1,\ 0 < \cos\alpha < 1$
+
+$\cos\alpha = \sqrt{1 - \sin^2\alpha} = \sqrt{1 - \dfrac{16}{25}} = \sqrt{\dfrac{9}{25}} = \dfrac{3}{5}$
+
+$\because \dfrac{\pi}{2} < \beta < \pi$
+
+$\therefore 0 < \sin\beta < 1,\ -1 < \cos\beta < 0$
+
+$\sin\beta = \sqrt{1 - \cos^2\beta} = \sqrt{1 - (\dfrac{-5}{13})^2} = \dfrac{12}{13}$
+
+$\sin(\alpha - \beta) = \sin\alpha\cos\beta - \sin\beta\cos\alpha = \dfrac{4}{5}\times \dfrac{-5}{13} - \dfrac{12}{13}\times \dfrac{3}{5} = \dfrac{-20}{65} - \dfrac{36}{65} = \dfrac{-56}{65}$
+
+
+
+### 102-02-02
+
+#### Statement
+
+方程式$2^{x^2}\cdot4^x\cdot16=8^x\cdot 64$之所有解的和為何？
+
+$\rm(A)\ -2$
+
+$\rm(B)\ -1$
+
+$\rm(C)\ 0$
+
+$\color{red}{\rm(D)\ 1}$
+
+$\rm(E)\ 2$
+
+
+
+#### Solution
+
+將式子改寫。
+
+$2^{x^2} \cdot 4^x = 8^x \cdot 64$
+
+$\Rightarrow 2^{x^2} \cdot 2^{2x} = 2^{3x} \cdot 2^6$
+
+$\Rightarrow 2^{x^2+2x} = 2^{3x+6}$
+
+兩邊同取$\log_2$，得到$x^2+2x = 3x+6$
+
+也就得到$x^2-x-6=0$，因式分解得到$(x-3)(x+2)=0$
+
+解根得到$x = 3$或$x = -2$，$3 + (-2) = 1$
+
+
+
+### 101-02-03
+
+#### Statement
+
+已知$\Gamma$表$f(x,y)=0$所對應之圖形，若$\Gamma$水平方向拉長$2$倍，再往右平移$1$單位，則此新圖形的方程式為何？
+
+$(A)\quad f(\dfrac{x}{2}+1,y) = 0 \\\color{red}(B)\quad f(\dfrac{x-1}{2}, y) = 0\\(C)\quad f(\dfrac{x+1}{2}, y)=0\\(D)\quad f(2x+1, y) =0\\(E)\quad f(2x-1,y)=0$
+
+
+
+#### Solution
+
+考慮拉長兩倍，那麼$a$要變大兩倍，因此$x$乘以$\dfrac{1}{2}$
+
+考慮往右平移一單位，那麼座標$x-1$，因此$x$減$1$
+
+因此$f=(\dfrac{x-1}{2}, y) = 0$，故選$(B)$
+
+
+
+### 101-02-04
+
+#### Statement
+
+設直線$L$過點$(-1, 1)$且與直線$8x-6y=1$垂直，則此直線方程式為何？
+
+$\rm(A)\ 3x-4y=-1$
+
+$\rm(B)\ 4x+3y=-1$
+
+$\rm(C)\ 4x-3y=-7$
+
+$\color{red}{\rm(D)\ 3x+4y=1}$
+
+$\rm(E)\ x-y=-2$
+
+
+
+#### Solution
+
+直線$8x-6y=1$的斜率為$\dfrac{-8}{-6} = \dfrac{4}{3}$
+
+因此造一條與其垂直的直線，這條直線的斜率與其斜率乘積必為$-1$。
+
+$\dfrac{4}{3} \times m = -1, m = \dfrac{-3}{4}$
+
+已知此直線會過點$(-1,1)$，因此$y-1 = \dfrac{-3}{4}(x+1)$
+
+$4y-4 = -3(x+1),\ 3x+4y = 1$
+
+
+
+### 101-02-05
+
+#### Statement
+
+過點$(2, -3)$與圓$(x-1)^2+(y+1)^2=5$相切的直線方程式為何？
+
+$\rm(A)\ 2x-y=7$
+
+$\rm(B)\ x+2y=-4$
+
+$\rm(C)\ 2x-3y=13$
+
+$\rm(D)\ 3x-2y=12$
+
+$\color{red}{\rm(E)\ x - 2y = 8}$
+
+
+
+#### Solution
+
+從圓的方程式可以知道，圓心為$(1, -1)$且半徑為$\sqrt{5}$。
+
+因此我們可以造過點$(2, -3)$的線，並且距離與圓心剛好為$\sqrt{5}$
+
+可以套用距離公式來得到。
+
+令與圓相切的直線為$y +3 = m(x-2)$
+
+整理後得到$mx - y - 2m -3 = 0$
+
+我們可以套用距離公式，得到$\dfrac{|mx-y-2m-3|}{\sqrt{m^2+(-1)^2}} = \sqrt{5}$
+
+將圓心帶入距離公式，得到$|m+1-2m-3| = \sqrt{5}\sqrt{m^2+1}$
+
+整理後得到$|-m-2| = \sqrt{5m^2+5}$
+
+兩邊平方後得到$(-m-2)^2 = 5m^2-5 \Rightarrow m^2+4m+4 = 5m^2+5$
+
+因此$-4m^2+4m-1$，$m = \dfrac{1}{2}$ (重根)
+
+$y + 3 = \dfrac{1}{2}(x-2)$
+
+$\Rightarrow \ 2y+6 = x-2$
+
+$\Rightarrow \ x-2y-8=0$
+
+$\Rightarrow x - 2y = 8$
+
+
+
+### 101-02-06
+
+#### Statement
+
+以$(1, 3+\sqrt{5})$與$(1, 3-\sqrt{5})$為兩焦點且短軸長為$6$之橢圓方程式為何？
+
+$\color{red}{\rm(A)\ \dfrac{(x-1)^2}{9} + \dfrac{(y-3)^2}{14} = 1}$
+
+$\rm(B)\ \dfrac{(x-1)^2}{9}+\dfrac{(y-3)^2}{25}=1$
+
+$\rm(C)\ \dfrac{(x-1)^2}{14}+\dfrac{(y-3)^2}{9} = 1$
+
+$\rm(D)\ \dfrac{(x-3)^2}{9} + \dfrac{(y-1)^2}{14} = 1$
+
+$\rm(E)\ \dfrac{(x-3)^2}{25} + \dfrac{(y-1)^2}{9} = 1$
+
+
+
+#### Solution
+
+兩焦點只有$y$軸有變動，因此這是一個貫軸平行$y$軸的橢圓。
+
+中心$(x,y) = (\dfrac{1+1}{2},\dfrac{3+\sqrt{5}+3-\sqrt{5}}{2}) = (1, 3)$
+
+$2c = (3 + \sqrt{5}) - (3 - \sqrt{5}) = 2\sqrt{5},\ c = \sqrt{5}$
+
+$2b = 6, b = 3$
+
+因此$a = \sqrt{3^2+(\sqrt{5})^2} = \sqrt{9 + 5} = \sqrt{14}$
+
+依照$\dfrac{(x-h)}{b} + \dfrac{(y-k)}{a} = 1$列式，得
+
+$\dfrac{(x-1)}{9} + \dfrac{(y-3)}{14} = 1$
+
+
+
+### 101-02-07
+
+#### Statement
+
+設$2\log(x-3) - \log2 = \log(x+9)$，則$x^2-10x+12$之值為何？
+$(A)\quad 1\\(B)\quad 2\\\color{red}(C)\quad 3\\(D)\quad 4\\(E)\quad 5$
+
+
+
+#### Solution
+
+$2\log(x-3) - \log2 = \log(x+9)$
+
+$\Rightarrow \log(\dfrac{x^2-6x+9}{x+9}) = \log(2)$
+
+$\Rightarrow \log(\dfrac{x^2-6x+9}{2x+18}) = 0$
+
+$\Rightarrow \dfrac{x^2-6x+9}{2x+18} = 1$
+
+$\Rightarrow x^2-6x+9 = 2x+18$
+
+$\Rightarrow x^2-8x-9=0$
+
+$\Rightarrow (x+1)(x-9)=0$
+
+得到$x=-1, x=9$
+
+驗根，由於$x=-1$帶進去後，$x-3 < 0$，又因為$\log$的定義域為正整數之集合，故$x=-1$不合。
+
+因此$x = 9$。
+
+$9^2-90+12 = 81-90+12=3$，故選$(C)$。
+
+
+
+### 101-02-08
+
+#### Statement
+
+若$0 \le \theta < 2\pi$，則$\cos2\theta+2\cos^2\dfrac{\theta}{2}=1$有幾個解？
+
+$(A)\quad 0\\(B)\quad 1\\(C)\quad 2\\\color{red}(D)\quad 3\\(E)\quad 4$
+
+
+
+#### Solution
+
+利用和角公式，可以知道
+
+$\cos(\dfrac{\theta}{2}+\dfrac{\theta}{2}) = \cos^2\dfrac{\theta}{2}-\sin^2\dfrac{\theta}{2} = \cos^2\dfrac{\theta}{2}-(1-\cos^2\dfrac{\theta}{2}) = 2\cos^2(\dfrac{\theta}{2})-1 = \cos\theta$
+
+因此$\cos\theta + 1 = 2\cos^2(\dfrac{\theta}{2})$
+
+
+
+且$\cos2\theta = \cos^2\theta-\sin^2\theta = 2\cos^2\theta-1$
+
+$2\cos^2\theta-1+\cos\theta+1=1$
+
+$2\cos^2\theta+\cos\theta =1$
+
+$2\cos^2\theta+\cos\theta-1=0$
+
+令$t = \cos\theta$，則$2t^2+t-1 = 0$，可得$t = \dfrac{1}{2}$或$t = -1$
+
+考慮$t = \cos\theta = \dfrac{1}{2}$，則$\theta = \dfrac{\pi}{3}$或$\theta = \dfrac{-\pi}{3}$
+
+考慮$t = \cos\theta = -1$，則$\theta = \pi$
+
+因此有三組解，故選$(D)$
+
+
+
+### 101-02-09
+
+#### Statement
+
+設$a$、$b$、$c$分別表示$\Delta ABC$的$\angle A$、$\angle B$、$\angle C$之對邊長，若$b^2-(c-a)^2 = ca$，則$\angle B = ?$
+
+$(A)\quad 30^{\circ} \\(B)\quad 45^{\circ}\\\color{red}(C)\quad 60^{\circ}\\(D)\quad 120^{\circ}\\(E)\quad 135^{\circ}$
+
+
+
+#### Solution
+
+$b^2-(c-a)^2 = ca$
+
+$\Rightarrow b^2 - (c^2-2ac+a^2) = ca$
+
+$\Rightarrow b^2-c^2+2ac-a^2=ca$
+
+$\Rightarrow b^2-c^2-a^2=-ac$
+
+$\Rightarrow a^2+c^2-b^2=ac$
+
+$\Rightarrow \dfrac{a^2+c^2-b^2}{2ac} = \dfrac{1}{2}$
+
+又$\cos B = \dfrac{a^2+c^2-b^2}{2ac} =\dfrac{1}{2}$
+
+因此$\angle B = \dfrac{\pi}{3} = 60^{\circ}$，故選$(C)$。
+
+
+
+### 101-02-10
+
+#### Statement
+
+方程式$x^{1+\log_2x} = (2x^3)$之所有解的和為何？
+
+$(A)\quad \dfrac{15}{2} \\ (B)\quad 8 \\\color{red}(C)\quad \dfrac{17}{2}\\(D)\quad 9\\(E)\quad \dfrac{19}{2}$
+
+
+
+#### Solution
+
+$x^{1+\log_2 x} = 8x^3$
+
+$\Rightarrow 1+\log_2 x = \log_x (8x^3)$
+
+$\Rightarrow 1+\log_2 x = \dfrac{\log_2 8x^3}{\log_2 x}$
+
+$\Rightarrow \log_2 x + \log^2_2 x = \log_2 8x^3$
+
+$\Rightarrow \log_2 x + \log^2_2 x = 3 + 3\log_2 x$
+
+令$t = \log_2 x $，則$t + t^2 = 3 + 3t$
+
+$\Rightarrow t^2-2t-3=0$
+
+$\Rightarrow t = 3$或$t = -1$
+
+還原$t$，得到$\left\{\begin{array}\ \log_2 x  =3, & x = 8 \\ \log_2 x = -1, & x = \dfrac{1}{2}\end{array}\right.$
+
+因此$8 + \dfrac{1}{2} = \dfrac{17}{2}$，故選$(C)$
+
+
+
+### 101-02-11
+
+#### Statement
+
+若$f(x) = \dfrac{x-1}{x}$，且$(f \circ g)(x) = \dfrac{x}{x+1}$，則$g(0) = ?$
+
+$(A)\quad 0\\\color{red}(B)\quad 1\\(C)\quad 2\\(D)\quad 3\\(E)\quad 4$
+
+
+
+#### Solution
+
+$f(x) = \dfrac{x-1}{x}$，則$f(g(0)) = \dfrac{x}{x+1} = 0$，因此$\dfrac{x-1}{x} = 1$，因此$g(0) = 1$，故選$(B)$。
+
+
+
+### 101-02-12
+
+#### Statement
+
+已知平面上兩點$A(-3, 1)$，$B(3, 5)$，又點$P(a, b)$在直線$2x+y+1=0$且$\overline{PA}=\overline{PB}$，則$a+b=?$
+
+$(A)\quad 5\\(B)\quad 6\\\color{red}(C)\quad 7\\(D)\quad 8\\(E)\quad 9$
+
+
+
+#### Solution
+
+將$A, B$兩點帶入直線，確定是否同側或異側。
+
+代入點$A$：$2\cdot (-3)+1+1=-4$
+
+代入點$B$：$2\times3+5+1 = 12$
+
+因此兩點異側。
+
+$2x+y+1=0 \Rightarrow y=-2x-1$
+
+由於$\overline{PA}=\overline{PB}$，因此
+
+$\sqrt{(-3-x)^2+(1-y)^2} = \sqrt{(3-x)^2+(5-y)^2}$
+
+$\Rightarrow (-3-x)^2+(1+2x+1)^2 = (3-x)^2+(5+2x+1)^2$
+
+$\Rightarrow (-3-x)^2+(2x+2)^2=(3-x)^2+(6+2x)^2$
+
+$\Rightarrow 5x^2+14x+13 = 5x^2+18x+45$
+
+$\Rightarrow -4x=32$
+
+$\Rightarrow x = -8$
+
+$\Rightarrow y = 15$
+
+因此$a = -8, b = 15, a + b = 7$，故選$(C)$
+
+
+
+### 101-02-13
+
+#### Statement
+
+設二向量$\vec{a} = <2, t^2-3>$，$\vec{b} = <t, -1>$。
+
+若$\vec{a}$和$\vec{b}$的夾角為$\dfrac{\pi}{2}$，且$\vec{b}$的長度不大於$2$，則$t=?$
+
+$(A)\quad -2 \\\color{red}(B)\quad -1\\(C)\quad 2\\(D)\quad 3\\(E)\quad 4$
+
+
+
+#### Solution
+
+$\cos\dfrac{\pi}{2} = 0$，因此$|\vec{a}||\vec{b}|\cos\theta = 0$，因此$\vec{a}\cdot \vec{b} = 0$
+
+$\vec{a}\cdot\vec{b} = 2t -t^2+3 = (-t+3)(t+1) =0$
+
+得到$t=3$或$t=-1$
+
+長度不大於$2$，因此我們考慮兩種$t$套進$\vec{b}$的影響
+
+考慮$t=3$，得到$\sqrt{(3)^2+(-1)^2} = \sqrt{10} > 2$，因此$t=3$不合
+
+考慮$t=-1$，得到$\sqrt{(-1)^2+(-1)^2} = \sqrt{2}$
+
+因此$t=-1$，故選$(B)$。
+
+
+
+### 101-02-14
+
+#### Statement
+
+設$\alpha + \beta$，$\alpha - \beta$為方程式$x^2-6x+5=0$的兩根，且$\alpha < \beta+2$，則$\beta = ?$
+
+$(A)\quad -2\\(B)\quad -1\\\color{red}(C)\quad 2\\(D)\quad 3\\(E)\quad 4$
+
+
+
+#### Solution
+
+利用根與係數，可以知道
+
+$(\alpha+\beta)+(\alpha-\beta) = -(\dfrac{-6}{1}) = 6$
+
+$2\alpha = 6$則$\alpha=3$
+
+$(\alpha-\beta)(\alpha+\beta) = \alpha^2-\beta^2=5$，則$\beta = \pm2$
+
+由於要滿足$\alpha < \beta+2$，所以$\beta=-2$不合。
+
+因此$\beta = 2$，故選$(C)$。
+
+
+
+### 101-02-15
+
+#### Statement
+
+設$f$為奇函數，$g$為偶函數，及對所有的$x$，恆有$f(-x) = -f(x)$且$g(-x)=g(x)$。
+
+如果$f$和$g$均為非零函數，則下列何者恆為正確？
+
+$(A)\quad f-g為奇函數$
+
+$\color{red}(B)\quad f\cdot g 為奇函數$
+
+$(C)\quad f^3\cdot g^3為偶函數$
+
+$(D)\quad 2f+3g為偶函數$
+
+$(E)\quad f+g的函數圖形對稱於y軸$
+
+
+
+#### Solution
+
+偶函數只有全部非負整數或全部非正整數兩種情況。
+
+因此乘到奇函數只有全部改變函數上的正負號或不改變兩種情況，函數本身依然是奇函數。
+
+故選$(B)$。
+
+
+
+### 101-02-16
+
+#### Statement
+
+下列何者為函數$f(x) = \dfrac{1}{\sqrt{x^3-x^2-x+1}}$的定義域？
+
+$(A)\quad \{x | x < -1\} \\ (B)\quad \{x | x > -1\} \\(C)\quad \{x | -1 < x < 1\}\\\color{red}(D)\quad \{x | -1 < x, x \neq 1\} \\(E)\quad \{x | x > 1\}$
+
+
+
+#### Solution
+
+$\sqrt{x^3-x^2-x+1} > 0$
+
+$\Rightarrow x^3-x^2-x+1 > 0$
+
+$\Rightarrow (x-1)^2(x+1) > 0$，得到$x \neq 1$且$x\neq -1$
+
+由於$(x-1)^2$恆正，因此我們考慮$(x+1)>0$，得到$x > -1$。
+
+因此$f(x)$的定義域$D(f(x)) = \{x | (x > -1), (x \neq 1)\}$，故選$(D)$
+
+
+
+### 101-02-17
+
+#### Statement
+
+設$\dfrac{x^2-10x+8}{x^3-2x^2-4x+8}$的部份分式為$\dfrac{a}{x+2}+\dfrac{b}{x-2}+\dfrac{c}{(x-2)^2}$，則$a-b-c = ?$
+
+$(A)\quad -2\\(B)\quad -1\\(C)\quad 1\\(D)\quad 3\\\color{red}(E)\quad 5$
+
+
+
+#### Solution
+
+$\dfrac{x^2-10x+8}{x^3-2x^2-4x+8} \Rightarrow \dfrac{x^2-10x+8}{(x-2)^2(x+2)}$
+
+
+
+$x^2-10x+8 = a(x-2)^2+b(x-2)(x+2)+c(x+2)$
+
+令$x=2$，$4-20+8=4c$，得到$c=-2$
+
+令$x=-2$，$16a=4+20+8=32$，得到$a=2$
+
+令$x=0$，$8=4a-4b+2c = 8-4b-4$，得到$b=-1$
+
+$a-b-c=2-(-1)-(-2)=5$，故選$(E)$。
+
+
+
+### 101-02-18
+
+#### Statement
+
+設$2x^2+(k-1)x+(k-3) = 0$之一根大於$2$，一根小於$1$，則$k$之範圍為何？
+
+$\color{red}(A)\quad \{k | k < -1\} \\(B)\quad \{k | 1 < k < 3\}\\(C)\quad \{k | -1 < k < 3\}\\(D)\quad \{k | k > 1\}\\(E)\quad \{k | -\infty<k<\infty\}$
+
+
+
+#### Solution
+
+$\dfrac{-(k-1)\pm\sqrt{(k-1)^2-4\times2\times(k-3)}}{2\times 2}$
+
+$\Rightarrow \dfrac{-k+1\pm\sqrt{k^2-2k+1-8k+24}}{4}$
+
+$\Rightarrow \dfrac{-k+1\pm\sqrt{k^2-10k+25}}{4}$
+
+
+
+一根大於2，因此用$\dfrac{-k+1+\sqrt{k^2-10k+25}}{4}$考慮
+
+因此$-k+1+\sqrt{k^2-10k+25}>8$，$-k+1+(k-5)>8$，得到$k<-1$
+
+一根小於$1$，因此用$\dfrac{-k+1-\sqrt{k^2-10k+25}}{4}$考慮
+
+因此$-k+1-\sqrt{k^2-10k+25}<4$，$-k+1+(k-5)<4$，得到$k\in \R$
+
+取聯集得到$k<-1$，因此$k$的範圍為$\{k | k < -1\}$，故選$(A)$
+
+
+
+### 101-02-19
+
+#### Statement
+
+若$f(x) = \sqrt{3-x}$，$g(x) = \sqrt{x-1}$，則$f \circ g$的定義域為何？
+
+$(A)\quad [1, 3] \\(B)\quad [1,4]\\(C)\quad [2, 4]\\(D)\quad [3, 9]\\\color{red}(E)\quad [1, 10]$
+
+
+
+#### Solution
+
+$f\circ g = \sqrt{3-\sqrt{x-1}}$
+
+考慮根號內的數字必須要是非負整數，得到$3-\sqrt{x-1} \ge 0$，$x \le  10$
+
+考慮根號內的數字必須要是非負整數，得到$x-1\ge 0$，得到$x \ge 1$
+
+取交集後得到$1 \le x \le 10$，故選$(E)$。
+
+
+
+### 101-02-20
+
+#### Statement
+
+若$f(x)=x^3+ax^2+bx+2$能被$x^2+1$整除，則$f(x)$除以$x+1$的餘式為何？
+
+$\color{red}(A)\quad 2\\(B)\quad 4\\(C)\quad 6\\(D)\quad 8\\(E)\quad 10$
+
+
+
+#### Solution
+
+利用長除法來做$f(x)$除以$x^2+1$，可以得到商為$(x+a)$且餘數為$(b-1)x+(2-a)$
+
+因為能夠被整除，因此餘數為$0$，得到$b=1$且$a=2$
+
+因此$f(x) = x^3+2x^2+x+2$
+
+除以$x+1$，利用餘式定理，將$x$帶$-1$
+
+因此$f(-1) = (-1)^3+2(-1)^2+(-1)+2 = -1+2+(-1)+2=2$，故選$(A)$
+
+
 
