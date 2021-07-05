@@ -1044,7 +1044,7 @@ $\rm (E)\ 5$
 
 
 
-<img src="https://i.imgur.com/a9YZabu.png" alt="image-20200811174256631" style="zoom:50%;" />
+![image-20210705225943458](https://i.imgur.com/oFox8KL.png)
 
 
 
