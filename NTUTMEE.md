@@ -1748,11 +1748,11 @@ $(A)\quad 108\\(B)\quad 116\\(C)\quad 122\\\color{red}(D)\quad 128\\(E)\quad 134
 
 #### Solution
 
-利用算幾不等式，可以考慮成$\dfrac{x+x+x+\dfrac{1}{2}y+\dfrac{1}{2}y}{5} = \sqrt[5]{x^3+\dfrac{1}{4}y^2}$
+利用算幾不等式，可以考慮成$\dfrac{x+x+x+\dfrac{1}{2}y+\dfrac{1}{2}y}{5} \ge \sqrt[5]{x^3\times \dfrac{1}{4}y^2}$
 
-$\Rightarrow 2 = \sqrt[5]{\dfrac{1}{4}x^3y^2}$
+$\Rightarrow 2 \ge \sqrt[5]{\dfrac{1}{4}x^3y^2}$
 
-因此$32 = \dfrac{1}{4}x^3y^2 \Rightarrow 128 = x^3y^2$，故$x^3y^2$的最大值為$128$，故選$(D)$
+因此$32 \ge \dfrac{1}{4}x^3y^2 \Rightarrow 128 \ge x^3y^2$，故$x^3y^2$的最大值為$128$，故選$(D)$
 
 
 
