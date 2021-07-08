@@ -2419,3 +2419,515 @@ $\color{red}(A)\quad 2\\(B)\quad 4\\(C)\quad 6\\(D)\quad 8\\(E)\quad 10$
 
 因此$f(-1) = (-1)^3+2(-1)^2+(-1)+2 = -1+2+(-1)+2=2$，故選$(A)$
 
+
+
+## 102年第1次北科入學數學會考
+
+### 102-01-01
+
+#### Statement
+
+若$\log(x-9)+\log(x-5)=\log4+\log(25-2x)$，則$x=?$
+
+$(A)\quad 9\\(B)\quad 10\\\color{red}(C)\quad 11\\(D)\quad 12\\(E)\quad 13$
+
+
+
+#### Solution
+
+$\log(x-9)+\log(x-5)=\log4+\log(25-2x)$
+
+$\Rightarrow \log((x-9)(x-5)) = \log(4(25-2x))$
+
+$\Rightarrow \log(x^2-14x+45) = \log(100-8x)$
+
+$\Rightarrow x^2-14x+45 = 100-8x$
+
+$\Rightarrow x^2-6x-55 = 0$
+
+$\Rightarrow (x-11)(x+5)=0$
+
+可得$x=-5$或$x=11$。
+
+驗根，可知當$x=-5$代入$\log(x-9)$，會得到$\log -14$
+
+$\log$的定義域為正整數之集合，故不合。
+
+因此$x=11$，故選$(C)$。
+
+
+
+### 102-01-02
+
+#### Statement
+
+已知$\dfrac{3\pi}{2} < \alpha < 2\pi, \pi<\beta<\dfrac{3\pi}{2}$。若$\sin \alpha = -\dfrac{3}{5}, \tan \beta = \dfrac{1}{3}$，則$\sin(\alpha+\beta) = ?$
+
+$\color{red}(A)\quad \dfrac{\sqrt{10}}{10}\\(B)\quad \dfrac{2\sqrt{10}}{10}\\(C)\quad \dfrac{3\sqrt{10}}{10}\\(D)\quad \dfrac{\sqrt{15}}{10}\\(E)\quad \dfrac{\sqrt{17}}{10}$
+
+
+
+#### Solution
+
+$\sin\alpha = -\dfrac{3}{5}$，因為$\dfrac{3\pi}{2} < \alpha < 2\pi$，則$\cos\alpha = \dfrac{4}{5}$。
+
+$\tan\beta = \dfrac{1}{3}$，因為$\pi < \beta < \dfrac{3\pi}{2}$，則$\sin\beta = \dfrac{1}{\sqrt{1^2+3^2}} = \dfrac{\sqrt{10}}{10}$，而$\cos\beta=\dfrac{3}{\sqrt{1^2+3^2}} = \dfrac{3\sqrt{10}}{10}$
+
+因此$\sin(\alpha + \beta) = \sin\alpha\cos\beta + \sin\beta\cos\alpha = \dfrac{-9\sqrt{10}}{50}+\dfrac{4\sqrt{10}}{50} = \dfrac{\sqrt{10}}{10}$，故選$(A)$。
+
+
+
+### 102-01-03
+
+#### Statement
+
+已知$\vec{a}$與$\vec{b}$為兩向量，$|\vec{a}| = |\vec{b}|$，$|\vec{a}+\vec{b}| = 4$且$|\vec{a}-\vec{b}|=3$。
+
+若$\vec{a}$與$\vec{b}$之夾角為$\theta$，則$\cos\theta = ?$
+
+$(A)\quad \dfrac{1}{7}\\(B)\quad \dfrac{1}{6}\\(C)\quad \dfrac{1}{5}\\(D)\quad \dfrac{6}{25}\\\color{red}(E)\quad \dfrac{7}{25}$
+
+
+
+#### Solution
+
+$(|\vec{a}+\vec{b}|)^2 = |\vec{a}|^2+2(\vec{a}\cdot\vec{b}) + |\vec{b}|^2 = 16$
+
+$(|\vec{a}-\vec{b}|)^2 = |\vec{a}|^2-2(\vec{a}\cdot\vec{b})+|\vec{b}|^2=9$
+
+因此，$4(\vec{a}\cdot \vec{b}) = 7, \vec{a}\cdot\vec{b} = \dfrac{7}{4}$
+
+又$|\vec{a}|=|\vec{b}|$，因此$2|\vec{a}|^2 - \dfrac{7}{2} = 9$，$|\vec{a}| = \dfrac{5}{2}$
+
+已知$\vec{a}\cdot\vec{b} = |\vec{a}||\vec{b}|\cos\theta = \dfrac{5}{2}\cdot\dfrac{5}{2} \cos\theta= \dfrac{7}{4}$，得到$\cos\theta = \dfrac{7}{25}$，故選$(E)$
+
+
+
+### 102-01-04
+
+#### Statement
+
+若$\Delta ABC$中，$\overline{AB}=\sqrt{3}+1$，$\overline{BC}=2$且$\angle B =30^{\circ}$，則$\angle A = ?$
+
+$(A)\quad 30^{\circ}\\\color{red}(B)\quad 45^{\circ}\\(C)\quad 60^{\circ}\\(D)\quad 90^{\circ}\\(E)\quad 120^{\circ}$
+
+
+
+#### Solution
+
+$\overline{AC}^2 = (\sqrt{3}+1)^2 +(2)^2 - 2\cdot (\sqrt{3}+1)\cdot(2)\cdot \cos\beta$
+
+$= 3 + 2\sqrt{3} + 1 + 4 - (4\sqrt{3} + 4)\dfrac{\sqrt{3}}{2} = 2$
+
+因此$\overline{AC}= \sqrt{2}$
+
+已知$\dfrac{\overline{AC}}{\sin\beta} = \dfrac{\overline{BC}}{\sin\alpha}$，因此$\dfrac{\sqrt{2}}{\dfrac{1}{2}} = \dfrac{2}{\sin\alpha}$，得到$\sin\alpha = \dfrac{\sqrt{2}}{2}$，因此$\alpha = 45^{\circ}$，故選$(B)$
+
+
+
+### 102-01-05
+
+#### Statement
+
+下列敘述何者正確？
+
+$(A)\quad f(x) = \sqrt[3]{x+1} 的定義域為(-1, \infty)$
+
+$(B)\quad f(x) = \sqrt[3]{x+1}的定義域為[-1, \infty)$
+
+$(C)\quad f(x)=\sqrt[3]{x+1}的值域為[1, \infty)$
+
+$\color{red} (D)\quad f(x)=\sqrt{x+1}的定義域為[-1, \infty)$
+
+$(E)\quad f(x)= \sqrt{x+1}的值域為[1, \infty)$
+
+
+
+#### Solution
+
+$(A)$的定義域為$\R$
+
+$(B)$的定義域為$\R$
+
+$(C)$的值域為$[0, \infty)$
+
+$(E)$的值域為$[0, \infty)$
+
+故選$(D)$
+
+
+
+### 102-01-06
+
+#### Statement
+
+若$\dfrac{16x^3-20x^2+6x+3}{(2x-1)^4} = \dfrac{a}{(2x-1)}+\dfrac{b}{(2x-1)^2}+\dfrac{c}{(2x-1)^3}+\dfrac{d}{(2x-1)^4}$，則$a-b+c-d = ?$
+
+$\color{red}(A)\quad -3\\(B)\quad -1\\(C)\quad 0\\(D)\quad 1\\(E)\quad 3$
+
+
+
+#### Solution
+
+$\dfrac{16x^3-20x^2+6x+3}{(2x-1)^4} = \dfrac{a}{(2x-1)}+\dfrac{b}{(2x-1)^2}+\dfrac{c}{(2x-1)^3}+\dfrac{d}{(2x-1)^4}$
+
+$\Rightarrow 16x^3-20x^2+6x+3 = a(2x-1)^3+b(2x-1)^2+c(2x-1)+d$
+
+利用綜合除法
+
+<img src="https://i.imgur.com/M2OXD2z.png" alt="image-20210707124654616" style="zoom:67%;" />
+
+得到$a =2 , b = 1, c =-1, d= 3$，因此$a-b+c-d = 2-1+(-1)-3=-3$，故選$(A)$
+
+
+
+### 102-01-07
+
+#### Statement
+
+若橢圓$4x^2+9y^2+16x-18y-24=0$的長、短軸長各為$a$、$b$、則$a+b=?$
+
+$(A)\quad \dfrac{5}{7}\\(B)\quad \dfrac{10}{7} \\(C)\quad \dfrac{15}{7}\\\color{red}(D)\quad \dfrac{35}{6}\\(E)\quad \dfrac{35}{3}$
+
+
+
+#### Solution
+
+$4x^2+16x+9y^2-18y=24$
+
+$\Rightarrow 4(x^2+4x+4)+9(y^2-2y+1)=24+16+9$
+
+$\Rightarrow 4(x+2)^2+9(y-1)^2 = 49$
+
+$\Rightarrow \dfrac{(x+2)^2}{\dfrac{49}{4}} + \dfrac{(y-1)^2}{\dfrac{49}{9}} = 1$
+
+可知長軸$a = \sqrt{\dfrac{49}{4}} = \dfrac{7}{2}$，短軸$b = \sqrt{\dfrac{49}{9}} = \dfrac{7}{3}$
+
+$\dfrac{7}{2}+\dfrac{7}{3} = \dfrac{35}{6}$，故選$(D)$
+
+
+
+### 102-01-08
+
+#### Statement
+
+下列何者錯誤？
+
+$(A)\quad \sin\dfrac{8\pi}{3} = \sin\dfrac{2\pi}{3}\\(B)\quad \cos\dfrac{17}{6} = -\sin\dfrac{\pi}{3}\\(C)\quad \tan\dfrac{11\pi}{3}=\tan\dfrac{2\pi}{3}\\\color{red}(D)\quad \sec\dfrac{15\pi}{4}=-\sec\dfrac{\pi}{4}\\(E)\quad \csc\dfrac{7\pi}{6} = -\csc\dfrac{\pi}{6}$
+
+
+
+#### Solution
+
+$\sec\dfrac{15\pi}{4} = \sec675^{\circ} = \sec45^{\circ}$
+
+$\sec45^{\circ} \neq -\sec 45^{\circ}$，故選$(D)$
+
+
+
+### 102-01-09
+
+#### Statement
+
+若$f(x) = x^4-2x^3+3x^2+7 = a(x-2)^4+b(x-2)^3+c(x-2)^2+d(x-2)+e$
+
+則$a+b+c=?$
+
+$(A)\quad 20\\(B)\quad 21\\\color{red}(C)\quad 22\\(D)\quad 23\\(E)\quad 24$
+
+
+
+#### Solution
+
+![image-20210708184046209](https://i.imgur.com/uHycmMd.png)
+
+故$a = 1, b = 6, c = 15, d = 20, e = 19$
+
+因此$a+b+c = 22$，故選$(C)$
+
+
+
+### 102-01-10
+
+#### Statement
+
+若$L_1 = 2x-y+7=0$與$L_2 = ax+y-13=0$的交角為$\dfrac{\pi}{4}$且$a > 0$，則$a = ?$
+
+$(A)\quad 6\\(B)\quad 5\\(C)\quad 4\\\color{red}(D)\quad 3\\(E)\quad 2$
+
+
+
+#### Solution
+
+$m_1 = -\dfrac{2}{-1} = 2$，$m_2 = -\dfrac{a}{1} = -a$
+
+又$\tan(\theta_1 - \theta_2) = \dfrac{\tan\theta_1 - \tan\theta_2}{1+\tan\theta_1\tan\theta_2} = \dfrac{2-(-a)}{1-2a} = \dfrac{2+a}{1-2a}$
+
+交角可能是$\tan45^{\circ}$或$\tan135^{\circ}$，因此考慮
+
+若是$\tan45^{\circ}$，則$\dfrac{2+a}{1-2a} = 1$，得到$a = -\dfrac{1}{3}$，不合。
+
+若是$\tan135^{\circ}$，則$\dfrac{2+a}{1-2a} = -1$，得到$a = 3$
+
+因此$a=3$，故選$(D)$
+
+
+
+### 102-01-11
+
+#### Statement
+
+求不等式$1+\dfrac{2x-7}{(x-2)^2} < 0$的解為何？
+
+$(A)\quad 3 > x\\(B)\quad x < -1\\\color{red}(C)\quad -1<x<2或2<x<3\\(D)\quad -1<x<3\\(E)\quad x < -1 或 3 < x$
+
+
+
+#### Solution
+
+$1+\dfrac{2x-7}{(x-2)^2} < 0$
+
+$\Rightarrow \dfrac{x^2-2x-3}{x^2-4x+4} < 0$
+
+$\Rightarrow \dfrac{(x-3)(x+1)}{(x-2)^2} < 0$
+
+考慮定義域，得到條件1：$x \neq 2$
+
+因此考慮以下兩種情況
+
+$\left\{\begin{array}\ (x-3)(x+1) > 0 \\ (x-2)^2 < 0 \end{array}\right. \Rightarrow x \in \varnothing$
+
+$\left\{\begin{array}\ (x-3)(x+1) < 0 \\(x-2)^2 > 0\end{array}\right. \Rightarrow -1 < x < 3$
+
+將這兩種情況取聯集，與條件1取交集，得到$-1 < x < 2$或$2 < x < 3$，故選$(C)$
+
+
+
+### 102-01-12
+
+#### Statement
+
+若拋物線$x^2=y+3$與直線$5x+y-3=0$相交於$P(a, b)$及$Q(c, d)$且$a > c$，則$b-d = ?$
+
+$\color{red}(A)\quad -35\\(B)\quad -8\\(C)\quad 31\\(D)\quad 35\\(E)\quad 8$
+
+
+
+#### Solution
+
+$x^2=y+3 \Rightarrow y = x^2-3$
+
+$5x+y-3=0 \Rightarrow y = -5x+3$
+
+則$x^2-3=-5x+3$，得到$x^2+5x-6 = 0 \Rightarrow (x+6)(x-1) = 0$
+
+因此$x = -6$或$x =1$
+
+得到$a = 1$且$c = -6$，代入原方程式得到$b = -2$且$d = 33$
+
+因此$b-d = -2-33=-35$，故選$(A)$
+
+
+
+### 102-01-13
+
+#### Statement
+
+若$P(4, 1)$、$Q(2, 1)$、$R(a, a)$且$\overline{PR}+\overline{QR}$的值為最小，則$a=?$
+
+$(A)\quad 1\\(B)\quad \dfrac{3}{2}\\(C)\quad \dfrac{5}{4}\\\color{red}(D)\quad \dfrac{7}{4}\\(E)\quad 2$
+
+
+
+#### Solution
+
+考慮$R(a,a)$在$y=x$上，因此我們可以試著確定$P$，$Q$是否在$y=x$不同側上。
+
+判別式為$y-x$，代入$P(4, 1)$得$3$，代入$Q(2, 1)$得$1$，因此同側。
+
+
+
+因此，我們考慮在$y=x$上做一鏡像$Q'$，求一直線$L$經過$P$與$Q'$，與$y=x$之交集點。
+
+可得$Q' = (1, 2)$，利用點斜式得到直線$y - 2 = \dfrac{2-1}{1-4}(x-1) \Rightarrow 3y=-x+7$
+
+與$y=x$取交集，得到$x = \dfrac{7}{4}$，因此$a = \dfrac{7}{4}$，故選$(D)$
+
+
+
+
+
+### 102-01-14
+
+#### Statement
+
+若雙曲線之漸進線為$x$軸與$y$軸且過點$(1, -1)$，則此雙曲線方程式為何？
+
+$(A)\quad x^2-(y+1)^2=1\\\color{red}(B)\quad xy=-1\\(C)\quad y^2-(x-1)^2=1\\(D)\quad \dfrac{(x-1)^2}{4}-(y+1)^2=1\\(E)\quad \dfrac{(x+1)^2}{4}-(y+1)^2=-1$
+
+
+
+#### Solution
+
+漸進線為$x$軸與$y$軸，因此雙曲線為垂直雙曲線$xy=c$之形式，故選$(B)$。
+
+
+
+### 102-01-15
+
+#### Statement
+
+若$a = \log 2$、$b = \log 3$，則$10^{3a-2b} = ?$
+
+$\color{red}(A)\quad \dfrac{8}{9}\\(B)\quad \dfrac{11}{10}\\(C)\quad 1\\(D)\quad 10\\(E)\quad 12$
+
+
+
+#### Solution
+
+$10^{3a-2b} = 10^{3\log2-2\log3} = 10^{\log8-\log9} = 10^{\log\frac{8}{9}} = \dfrac{8}{9}$，故選$(A)$
+
+
+
+### 102-01-16
+
+#### Statement
+
+若$\sin\theta - \cos\theta = \dfrac{1}{3}$且$0 < \theta < \dfrac{\pi}{2}$，則$\sin^2\theta-\cos^2\theta = ?$
+
+$(A)\quad \dfrac{4}{9} \\\color{red}(B)\quad \dfrac{\sqrt{17}}{9}\\(C)\quad \dfrac{\sqrt{2}}{3}\\(D)\quad \dfrac{\sqrt{19}}{9}\\(E)\quad \dfrac{2\sqrt{5}}{9}$
+
+
+
+#### Solution
+
+$\sin\theta - \cos\theta = \dfrac{1}{3}$且$0 < \theta < \dfrac{\pi}{2}$，因此$\dfrac{\pi}{4}<\theta<\dfrac{\pi}{2}$
+
+$(\sin\theta-\cos\theta)^2 = \sin^2\theta - 2\sin\theta\cos\theta +\cos^2\theta = \dfrac{1}{9}$
+
+因此$-2\sin\theta\cos\theta = \dfrac{-8}{9}$，$\sin\theta\cos\theta = \dfrac{4}{9}$
+
+可知$\sin2\theta = 2\sin\theta\cos\theta = \dfrac{8}{9}$
+
+則$\cos2\theta = \sqrt{1-\sin2\theta} = \dfrac{\sqrt{17}}{9} = \cos^2\theta-\sin^2\theta$
+
+由於上述已知$\dfrac{\pi}{4}<\theta<\dfrac{\pi}{2}$，因此$\dfrac{\pi}{2}<2\theta<\pi$，所以$\cos2\theta = \dfrac{-\sqrt{17}}{9}$
+
+因此$\sin^2\theta-\cos^2\theta = \sin^2\theta-\cos^2\theta = \dfrac{\sqrt{17}}{9}$，故選$(B)$
+
+
+
+
+
+### 102-01-17
+
+#### Statement
+
+若直線通過點$(3, 4)$$且在第一象限與兩軸所圍三角形面積最小，則此直線的兩截距和為何？
+
+$(A)\quad 12\\(B)\quad 13\\\color{red}(C)\quad 14\\(D)\quad 15\\(E)\quad 16$
+
+
+
+#### Solution
+
+列出直線式子：$y - 4 = m(x - 3)$
+
+求得$x, y$的截距：
+令$x = 0,\ y = -3m+4$
+令$y = 0,\ x = \dfrac{-4}{m} + 3$
+
+因此$xy = (-3m+4)(\dfrac{-4}{m} + 3) = 12 - 9m - \dfrac{16}{m} + 12 = -9m - \dfrac{16}{m}+24$
+
+
+
+利用微分解出極值，因此零次項捨去不用：
+
+$\because f'(m) = \dfrac{d}{dm}(f + g) = \dfrac{d}{dm}(f) + \dfrac{d}{dm}(g)$
+
+$\therefore f'(m) = \dfrac{d}{dm}(-9m) + \dfrac{d}{dm}(-\dfrac{16}{m})$ 
+
+$f'(m) = -9 + \dfrac{16}{m^2} = 0$
+
+$9m^2 = 16, m = \sqrt{\dfrac{16}{9}} = \pm\dfrac{4}{3}$ (正不合)
+
+帶回截距，得$y = \dfrac{-4}{3}\times -3 + 4 = 8,\ x = \dfrac{-4}{\dfrac{-4}{3}} + 3 = 6$
+
+$x + y = 14$，故選$(C)$
+
+
+
+### 102-01-18
+
+#### Statement
+
+已知圓$x^2+y^2=10$與$x^2+y^2-2x+4y=5$有兩交點，求此兩交點的距離為何？
+
+$(A)\quad \sqrt{33}\\\color{red}(B)\quad \sqrt{35}\\(C)\quad \sqrt{37}\\(D)\quad \sqrt{39}\\(E)\quad 2\sqrt{10}$
+
+
+
+#### Solution
+
+ $x^2+y^2-2x+4y=5$
+
+$\Rightarrow 10-2x+4y=5$
+
+$\Rightarrow 4y = -5+2x$
+
+$\Rightarrow y = \dfrac{-5+2x}{4}$
+
+$x^2 + \dfrac{25-20x+4x^2}{16} = 10$
+
+$\Rightarrow 16x^2+25-20x+4x^2=160$
+
+$\Rightarrow 20x^2-20x-135=0$
+
+$\Rightarrow 4x^2-4x-27=0$
+
+$\Rightarrow x = \dfrac{1}{2}\pm\sqrt{7}$
+
+
+
+考慮$x = \dfrac{1}{2}+\sqrt{7}$，則$y = -1+\dfrac{1}{2}\sqrt{7}$
+
+考慮$x = \dfrac{1}{2}-\sqrt{7}$，則$y = -1-\dfrac{1}{2}\sqrt{7}$
+
+因此兩點距離為$\sqrt{((\dfrac{1}{2}+\sqrt{7})-(\dfrac{1}{2}-\sqrt{7}))^2 + ((-1+\dfrac{1}{2}\sqrt{7})-(-1-\dfrac{1}{2}\sqrt{7}))^2} = \sqrt{35}$，故選$(B)$
+
+
+
+### 102-01-19
+
+#### Statement
+
+若數列的一般項為$a_n = \dfrac{2}{(n+1)(n+3)}$，則$a_1+a_2+a_3+...+a_{22}=?$
+
+$(A)\quad \dfrac{276}{600}\\\color{red}(B)\quad \dfrac{451}{600}\\(C)\quad \dfrac{476}{600}\\(D)\quad \dfrac{500}{600}\\(E)\quad 1$
+
+
+
+#### Solution
+
+$a_n = \dfrac{2}{(n+1)(n+3)} = \dfrac{1}{n+1}-\dfrac{1}{n+3}$
+
+推得規律，得到$a_1+a_2+a_3+...+a_{22} = \dfrac{1}{2} + \dfrac{1}{3}-\dfrac{1}{24}-\dfrac{1}{25} = \dfrac{451}{600}$，故選$(B)$
+
+
+
+### 102-01-20
+
+#### Statement
+
+若方程式$4^x-3\cdot 2^{x+1} - 16 = 0$，則$x = ?$
+
+$(A)\quad -3\\(B)\quad -2\\(C)\quad 1\\(D)\quad 2\\\color{red}(E)\quad 3$
+
+
+
+#### Solution
+
+令$t = 2^x$，則$t^2-6t-16=0$，得到$t=8$或$t=-2$(不合)
+
+還原$t$，得到$x = 3$，故選$(E)$
+
