@@ -2587,7 +2587,7 @@ $\Rightarrow 16x^3-20x^2+6x+3 = a(2x-1)^3+b(2x-1)^2+c(2x-1)+d$
 
 若橢圓$4x^2+9y^2+16x-18y-24=0$的長、短軸長各為$a$、$b$、則$a+b=?$
 
-$(A)\quad \dfrac{5}{7}\\(B)\quad \dfrac{10}{7} \\(C)\quad \dfrac{15}{7}\\\color{red}(D)\quad \dfrac{35}{6}\\(E)\quad \dfrac{35}{3}$
+$(A)\quad \dfrac{5}{7}\\(B)\quad \dfrac{10}{7} \\(C)\quad \dfrac{15}{7}\\(D)\quad \dfrac{35}{6}\\\color{red}(E)\quad \dfrac{35}{3}$
 
 
 
@@ -2601,9 +2601,9 @@ $\Rightarrow 4(x+2)^2+9(y-1)^2 = 49$
 
 $\Rightarrow \dfrac{(x+2)^2}{\dfrac{49}{4}} + \dfrac{(y-1)^2}{\dfrac{49}{9}} = 1$
 
-可知長軸$a = \sqrt{\dfrac{49}{4}} = \dfrac{7}{2}$，短軸$b = \sqrt{\dfrac{49}{9}} = \dfrac{7}{3}$
+可知長軸$2a = 2\sqrt{\dfrac{49}{4}} = 7$，短軸$2b = 2\sqrt{\dfrac{49}{9}} = \dfrac{14}{3}$
 
-$\dfrac{7}{2}+\dfrac{7}{3} = \dfrac{35}{6}$，故選$(D)$
+$7+\dfrac{14}{3} = \dfrac{35}{3}$，故選$(E)$
 
 
 
