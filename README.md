@@ -26,8 +26,8 @@
 | 101年第2次北科入學數學會考 |  :white_check_mark:  |  :white_check_mark:  |
 | 102年第1次北科入學數學會考 |  :white_check_mark:  | :white_check_mark: |
 | 102年第2次北科入學數學會考 |  :white_check_mark:  | :white_check_mark: |
-| 103年第1次北科入學數學會考 | :white_check_mark: | ​ |
-| 103年第2次北科入學數學會考 |  :arrow_forward:  |    |
+| 103年第1次北科入學數學會考 | :white_check_mark: |  |
+| 103年第2次北科入學數學會考 | :white_check_mark: |    |
 | 104年第1次北科入學數學會考 |    |    |
 | 104年第2次北科入學數學會考 |    |    |
 | 105年第1次北科入學數學會考 |    |    |
