@@ -26,8 +26,8 @@
 | 101年第2次北科入學數學會考 |  :white_check_mark:  |  :white_check_mark:  |  2021/07/08  |  22%  |
 | 102年第1次北科入學數學會考 |  :white_check_mark:  | :white_check_mark: | 2021/07/09 | 27% |
 | 102年第2次北科入學數學會考 |  :white_check_mark:  | :white_check_mark: | 2021/07/10 | 33% |
-| 103年第1次北科入學數學會考 | :white_check_mark: |  | 2021/07/11 | 38% |
-| 103年第2次北科入學數學會考 | :white_check_mark: |    | 2021/07/12 | 44% |
+| 103年第1次北科入學數學會考 | :white_check_mark: | :white_check_mark: | 2021/07/11 | 38% |
+| 103年第2次北科入學數學會考 | :white_check_mark: | :white_check_mark: | 2021/07/12 | 44% |
 | 104年第1次北科入學數學會考 | :white_check_mark: |    | 2021/07/13 | 50% |
 | 104年第2次北科入學數學會考 | :arrow_forward: |    | 2021/07/14 | 55% |
 | 105年第1次北科入學數學會考 |    |    | 2021/07/15 | 61% |
