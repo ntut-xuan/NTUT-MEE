@@ -28,12 +28,12 @@
 | 102年第2次北科入學數學會考 |  :white_check_mark:  | :white_check_mark: | 33% |
 | 103年第1次北科入學數學會考 | :white_check_mark: | :white_check_mark: | 38% |
 | 103年第2次北科入學數學會考 | :white_check_mark: | :white_check_mark: | 44% |
-| 104年第1次北科入學數學會考 | :white_check_mark: |    | 50% |
+| 104年第1次北科入學數學會考 | :white_check_mark: | :white_check_mark: | 50% |
 | 104年第2次北科入學數學會考 | :white_check_mark: | :white_check_mark: | 55% |
 | 105年第1次北科入學數學會考 | :white_check_mark: | :white_check_mark: | 61% |
-| 105年第2次北科入學數學會考 | :white_check_mark: |    | 66% |
-| 106年第1次北科入學數學會考 | :white_check_mark: |    | 72% |
-| 106年第2次北科入學數學會考 |    |    | 77% |
+| 105年第2次北科入學數學會考 | :white_check_mark: | :white_check_mark: | 66% |
+| 106年第1次北科入學數學會考 | :white_check_mark: | :white_check_mark: | 72% |
+| 106年第2次北科入學數學會考 | :white_check_mark: |    | 77% |
 | 107年第1次北科入學數學會考 |    |    | 83% |
 | 107年第2次北科入學數學會考 |    |    | 88% |
 | 108年第1次北科入學數學會考 |    |    | 94% |
